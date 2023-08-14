@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fizz Buzz</title>
+</head>
+
+<body>
+    <p>Write a program that takes a user’s input and prints the numbers from one to the number the user entered. However, for multiples of three print Fizz instead of the number and for the multiples
+        of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.</p>
+    <label for="fizzValue" id="fizzValue">
+        <span>Enter a number:</span>
+        <input type="number" id="fizzValue" name="Fizz" value="3">
+    </label>
+    <label for="buzzValue" id="buzzValue">
+        <span>Enter another number:</span>
+        <input type="number" id="buzzValue" name="Buzz" value="5">
+    </label>
+    <label>
+        <span></span>
+        <input type="submit" name="submit" id="submit" onclick="go()" value="Go!">
+    </label>
+    <label>
+        <span>Results:</span>
+    </label><br>
+    <p id="results"></p>
+</body>
+<script src="app.js"></script>
+
+</html>

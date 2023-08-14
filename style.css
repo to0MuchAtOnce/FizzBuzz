@@ -1,0 +1,8 @@
+body {
+  background: #252830;
+  color: #eee;
+}
+
+label {
+  display: flex;
+}
